@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9be4f529d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="IMAGES/p.png" class="'logo">
+            <ul>
+                <li><a href="#header"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-sharp fa-solid fa-address-card"></i>About</a></li>
+                <li><a href="#services"><i class="fa-sharp fa-solid fa-hand-holding-heart"></i></i>Service</a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-book"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Computer Engineering Student</p>
+            <h1>Hi,<br>I'm<span> Pranav Gaikwad</span></h1>
+        </div>
+    </div>
+</div>
+<!------------------about--------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMAGES/About.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subt">About me</h1>
+                <p>I'm Pranav Gaikwad. I'm pursuing B.E.Computer engineering degree in SCOE.
+                    My hobbies are playing cricket, swimming, learning new things etc.
+                    My short-term goal is to get a job in a reputed organisation like yours to gain experience and improve my skills.
+                    And my long-term goal is to achieve a higher position in my field of work and become a valuable part of the organization.
+                    My strengths are I'm a quick learner, flexible and able to work with a team. 
+                    That's all about me.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links  active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+                     
+                     <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Python</span><br>knows Python</li>
+                            <li><span>Java</span><br>knows Java</li>
+                            <li><span>Web Developer</span><br>html, css, js</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Experience">
+                        <ul>
+                            No such Experience, but learning new things.
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Completed SSC</span><br>Maharashtra state Board</li>
+                            <li><span>Completed HSC</span><br>Maharashtra state Board</li>
+                            <li><span>Pursuing B.E.</span><br>Mumbai University</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------Services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subt">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-ghost"></i>
+                <h2>Tester</h2>
+                <p>Can test codes and fix errors of the code</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Developer</h2>
+                <p>Can help you to develope your project</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-rocket"></i>
+                <h2>Esports Player</h2>
+                <p>Can play valorant esports </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subt">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="IMAGES/hms.png" alt="">
+                <div class="layer">
+                    <h3>Hospital Management System</h3>
+                    <p>A hospital information system (HIS) is an element of health informatics that focuses mainly on the administrational needs of hospitals. In many implementations, a HIS is a comprehensive, integrated information system designed to manage all the aspects of a hospital's operation, such as medical, administrative, financial, and legal issues and the corresponding processing of services. Hospital information system is also known as hospital management software (HMS) or hospital management system.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMAGES/money.jpg" alt="">
+                <div class="layer">
+                <h3>Currency Converter</h3>
+                    <p>A universal currency converter is a software application or website that provides for the easy conversion of currency values based on present-day exchange rates. Such currency converters can easily be found for free on the Internet, and can quickly convert the value of one currency to another, such as dollars to euros, or euros to pounds, and back again.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                
+                <img src="IMAGES/Mask.png" alt="">
+                <div class="layer">
+                <h3>Face Mask Detector</h3>
+                    <p>Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. With this dataset, it is possible to create a model to detect people wearing masks, not wearing them, or wearing masks improperly.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                       
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+<!----------------Contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subt"></h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i></i></i>0123456789</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Resume/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright©Pranav Gaikwad</p>
+    </div>
+</div>
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw7ec4zEnHTKAt4QbGTp-SrLHG7s6ws96wZatRamc7CkFpLxk_4aDnIxirWQdubT8AA6g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
